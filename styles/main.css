@@ -1,0 +1,29 @@
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c7c71e;
+}
+canvas{
+  display: block;
+  margin: auto;
+}
+@keyframes blinker {
+  0% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
+
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+h1{
+  position: relative;
+  z-index: 1;
+  font-size: 5rem;
+animation: blinker steps(1) 500ms infinite alternate;
+
+}
+
