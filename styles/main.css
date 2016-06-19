@@ -6,6 +6,7 @@ html, body {
   background-color: #c7c71e;
 }
 canvas{
+  max-width: 100%;
   display: block;
   margin: auto;
 }
