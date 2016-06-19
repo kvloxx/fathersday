@@ -10,6 +10,12 @@ canvas{
   display: block;
   margin: auto;
 }
+@media only screen and (max-device-width: 480px){
+  canvas{
+  width: 100vw;
+  height: 100vw;
+  }
+}
 @keyframes blinker {
   0% { visibility: visible; }
   50% { visibility: hidden; }
